@@ -1,20 +1,33 @@
 /* Challenge 8: Change the type of font to Arial for all elements */
-body{font-family: Arial;
+body{font-family: arial;
 background-color: rgb(33, 220, 95);}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:sans-serif;
+    color: #008120;
+}
 
 /* Challenge 9: Change the background color for all elements with a class of banner.  Choose a color
                 using rgb( )
 */
 #banner{
     background-color: rgb(18, 73, 184);
-    color: white;}
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 /* Challenge 10: Change the background color for all elements with a class of subbanner.  Choose a color
                 using a hexdecimal value. 
 */
 .subbanner{
-    background-color: #FF2E2E;
-    color:white;}
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#FF2E2E;
+    color:white;
+    font-size: 30px;
+}
 /* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all 
                  elements with a class of gallery 
 */
@@ -38,6 +51,10 @@ background-color: rgb(33, 220, 95);}
     filter: sepia(100%);
 }
 #secondGallery,img:hover{
+    height:300px;
     filter: sepia(0%);
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
+*{
+  transition:1s;
+}
