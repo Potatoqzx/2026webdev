@@ -22,7 +22,7 @@ nav a{
   transition:0.5s
 }
 nav a:hover{
-    background-color:blue;
+    background-color:rgb(4, 4, 247);
     color:white;
     transition:0.5s;
 }
