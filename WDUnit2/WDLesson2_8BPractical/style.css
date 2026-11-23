@@ -1,8 +1,19 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
-   .container{display: flexbox;}
+   .container{display: flex;}
 
-   #header{
-      flex-direction: row;
-      flex: 1,2;
+   #header div{   
+      flex: 1;
+   }
+
+   #navigation a{
+      background-color: green;
+      padding: 10px;
+      flex: 1;
+      color:white;
+      text-decoration: none;
+   }
+
+   #links{
+      flex: 150px,0,0;
    }
